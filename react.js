@@ -4,7 +4,7 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: ['eslint-config-profico/base', 'plugin:@typescript-eslint/recommended', 'airbnb', 'prettier/react'],
+  extends: ['eslint-config-profico/base', 'airbnb', 'prettier/react'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
