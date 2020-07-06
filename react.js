@@ -2,10 +2,9 @@ module.exports = {
   env: {
     browser: true,
     es6: true,
-    node: true,
     jest: true,
   },
-  extends: ['eslint-config-profico/base', 'plugin:import/errors', 'plugin:import/warnings', 'plugin:import/typescript'],
+  extends: ['eslint-config-profico/base', 'airbnb', 'prettier/react'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaFeatures: {
@@ -66,9 +65,7 @@ module.exports = {
     'import/resolver': {
       node: {
         extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
-        moduleDirectory: ['node_modules', 'src/'],
       },
-      // "babel-module": {}
     },
   },
 };

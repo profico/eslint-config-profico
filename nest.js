@@ -1,5 +1,5 @@
 module.exports = {
-  extends: 'eslint-config-profico/base',
+  extends: ['eslint-config-profico/base'],
   parser: '@typescript-eslint/parser',
   rules: {
     'import/no-unresolved': 'off',
@@ -20,6 +20,10 @@ module.exports = {
         varsIgnorePattern: '^[A-Z].*',
       },
     ],
+  },
+  env: {
+    node: true,
+    es6: true,
   },
   overrides: [
     {
