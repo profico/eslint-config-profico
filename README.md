@@ -1,4 +1,4 @@
-# eslint-config-profico
+# @profi.co/eslint-config
 
 ESLint configs for use in company's projects
 
@@ -16,25 +16,25 @@ To Do:
 
 ## Installation
 
-Install eslint-config-profico:
+Install @profi.co/eslint-config:
 
 ```
-npm install --save-dev @profico/eslint-config-profico
+npm install --save-dev @profico/@profi.co/eslint-config
 ```
 
 or with yarn:
 
 ```
-yarn add --dev @profico/eslint-config-profico
+yarn add --dev @profico/@profi.co/eslint-config
 ```
 
 ## Usage
 
-To use base config, add eslint-config-profico to "extends" array in your .eslintrc file in one of the following ways:
+To use base config, add @profi.co/eslint-config to "extends" array in your .eslintrc file in one of the following ways:
 
 ```json
 {
-  "extends": ["@profico"]
+  "extends": ["@profi.co"]
 }
 ```
 
@@ -42,7 +42,7 @@ or
 
 ```json
 {
-  "extends": ["@profico/eslint-config"]
+  "extends": ["@profi.co/eslint-config"]
 }
 ```
 
@@ -52,7 +52,7 @@ To use config for specific framework/library, extend it in following way:
 
 ```json
 {
-  "extends": ["@profico/eslint-config/react"]
+  "extends": ["@profi.co/eslint-config/react"]
 }
 ```
 
@@ -60,6 +60,6 @@ or
 
 ```json
 {
-  "extends": ["@profico/eslint-config/nest"]
+  "extends": ["@profi.co/eslint-config/nest"]
 }
 ```
