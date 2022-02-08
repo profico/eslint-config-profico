@@ -19,13 +19,13 @@ To Do:
 Install @profi.co/eslint-config:
 
 ```
-npm install --save-dev @profico/@profi.co/eslint-config
+npm install --save-dev @@profi.co/eslint-config
 ```
 
 or with yarn:
 
 ```
-yarn add --dev @profico/@profi.co/eslint-config
+yarn add --dev @profi.co/eslint-config
 ```
 
 ## Usage
