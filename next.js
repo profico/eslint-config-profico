@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['next/core-web-vitals', '@profi.co/react'],
+  extends: ['next/core-web-vitals', require.resolve('./react')],
   rules: {
     'import/no-extraneous-dependencies': [
       'error',

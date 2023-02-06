@@ -1,6 +1,6 @@
 {
   "name": "@profi.co/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "ESLint rules for company's projects",
   "main": "index.js",
   "scripts": {
@@ -19,10 +19,11 @@
   },
   "files": [
     "index.js",
-    "angular.js",
     "nest.js",
     "next.js",
     "react.js",
+    "recommended.js",
+    "package.json",
     "LICENSE",
     "README.md"
   ],

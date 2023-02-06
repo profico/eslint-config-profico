@@ -5,7 +5,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['airbnb', '@profi.co/recommended'],
+  extends: ['airbnb', require.resolve('./recommended')],
   plugins: ['react-hooks'],
   settings: {
     react: {

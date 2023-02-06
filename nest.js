@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['@profi.co/recommended'],
+  extends: [require.resolve('./recommended')],
   rules: {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': [
