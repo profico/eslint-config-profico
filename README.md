@@ -1,40 +1,35 @@
-# eslint-config-profico
+# ESLint config by Profico
 
-ESLint configs for use in company's projects
+This config is used to enforce some ESLint rules Profico developers use on a day-to-day basis.
 
-## Current configs
+## Current configurations
 
-Ready for use:
-
-- base (set of recommended rules, extends typescript-eslint/recommended, airbnb-base and prettier config)
-- nest (set of rules for NestJs, extended from base config)
-- react (set of rules for React, extended from base config)
-
-To Do:
-
-- angular
+- `recommended` (set of recommended rules, extends `@typescript-eslint/recommended`, `airbnb-base` and `prettier` config)
+- `nest` (set of rules for NestJS, extended from `base` config)
+- `react` (set of rules for React, extended from `base` config)
+- `next` (set of rules for Next.js, extended from `react` config)
 
 ## Installation
 
-Install eslint-config-profico:
+Install with npm:
 
 ```
-npm install --save-dev @profico/eslint-config-profico
+npm install --save-dev @profi.co/eslint-config
 ```
 
 or with yarn:
 
 ```
-yarn add --dev @profico/eslint-config-profico
+yarn add --dev @profi.co/eslint-config
 ```
 
 ## Usage
 
-To use base config, add eslint-config-profico to "extends" array in your .eslintrc file in one of the following ways:
+To use the `recommended` config, add `@profi.co` to the `"extends"` array in your `.eslintrc` file in one of the following ways:
 
 ```json
 {
-  "extends": ["@profico"]
+  "extends": ["@profi.co"]
 }
 ```
 
@@ -42,24 +37,14 @@ or
 
 ```json
 {
-  "extends": ["@profico/eslint-config"]
+  "extends": ["@profi.co/recommended"]
 }
 ```
 
----
-
-To use config for specific framework/library, extend it in following way:
+To use any of the other provided configurations, just replace `recommended` with the name of the configuration. For example:
 
 ```json
 {
-  "extends": ["@profico/eslint-config/react"]
-}
-```
-
-or
-
-```json
-{
-  "extends": ["@profico/eslint-config/nest"]
+  "extends": ["@profi.co/react"]
 }
 ```
