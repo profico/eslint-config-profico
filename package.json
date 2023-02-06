@@ -1,6 +1,6 @@
 {
   "name": "@profi.co/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint rules for company's projects",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
     "profico"
   ],
   "license": "MIT",
-  "devDependencies": {
+  "peerDependencies": {
     "@next/eslint-plugin-next": "^13.1.6",
     "@profi.co/eslint-plugin": "^1.0.7",
     "@typescript-eslint/eslint-plugin": "^5.50.0",
