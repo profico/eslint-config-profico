@@ -1,6 +1,5 @@
 module.exports = {
-  extends: ['eslint-config-profico/base'],
-  parser: '@typescript-eslint/parser',
+  extends: ['@profi.co/recommended'],
   rules: {
     'import/no-unresolved': 'off',
     'import/no-extraneous-dependencies': [
