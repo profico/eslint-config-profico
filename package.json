@@ -1,6 +1,6 @@
 {
-  "name": "@profico/eslint-config",
-  "version": "1.0.0",
+  "name": "@profi.co/eslint-config",
+  "version": "1.0.1",
   "description": "ESLint rules for company's projects",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/profico/eslint-config-profico"
+    "url": "https://github.com/profico/eslint-config-profico.git"
   },
+  "publishConfig": {
+    "name": "@profi.co/eslint-config"
+  },
+  "files": [
+    "index.js",
+    "angular.js",
+    "nest.js",
+    "next.js",
+    "react.js",
+    "LICENSE",
+    "README.md"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
@@ -22,8 +34,11 @@
     "es2018",
     "profico"
   ],
-  "author": "Ivan Romac",
-  "license": "ISC",
+  "author": {
+    "name": "Filip Polić",
+    "email": "fpolic@profico.hr"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^3.2.0",
     "@typescript-eslint/parser": "^3.2.0",
