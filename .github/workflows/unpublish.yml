@@ -1,8 +1,8 @@
-name: Publish Package to npmjs
+name: Unpublish Package from npmjs
 
 on:
-  release:
-    types: [created]
+  push:
+    branches: [master]
 
 jobs:
   publish:
@@ -14,8 +14,8 @@ jobs:
           node-version: '18.14'
           registry-url: 'https://registry.npmjs.org'
       - name: Install dependencies
-        run: yarn --frozen-lockfile
+        run: npm ci
       - name: Publish package
-        run: yarn publish --access public
+        run: npm unpublish @profi.co/eslint-config -f
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
