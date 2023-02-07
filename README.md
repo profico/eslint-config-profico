@@ -1,3 +1,5 @@
+> :warning: **ARCHIVED**: This repository has been archived in favour of [ESLint Profico Plugin](https://github.com/profico/eslint-plugin-profico).
+
 # ESLint config by Profico
 
 This config is used to enforce some ESLint rules Profico developers use on a day-to-day basis.
