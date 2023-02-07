@@ -13,8 +13,6 @@ jobs:
         with:
           node-version: '18.14'
           registry-url: 'https://registry.npmjs.org'
-      - name: Install dependencies
-        run: npm ci
       - name: Publish package
         run: npm unpublish @profi.co/eslint-config -f
         env:
